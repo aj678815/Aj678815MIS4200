@@ -14,5 +14,9 @@ namespace Aj678815MIS4200.Models
         public string phone { get; set; }
         public DateTime customerSince { get; set; }
 
+        public ICollection<Appointment> Appointment { get; set; } 
+
+
     }
+    
 }
