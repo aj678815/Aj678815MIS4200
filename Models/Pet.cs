@@ -10,6 +10,7 @@ namespace Aj678815MIS4200.Models
         public int petId { get; set; }
         public string description { get; set; }
         public  decimal  vetExpense { get; set; }
+        public int supplierID { get; set; }
 
         public ICollection<AppointmentDetails> AppointmentDetails { get; set; }
 

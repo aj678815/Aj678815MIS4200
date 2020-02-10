@@ -257,16 +257,16 @@
     <Content Include="Views\Appointments\Details.cshtml" />
     <Content Include="Views\Appointments\Edit.cshtml" />
     <Content Include="Views\Appointments\Index.cshtml" />
-    <Content Include="Views\Pets\Create.cshtml" />
-    <Content Include="Views\Pets\Delete.cshtml" />
-    <Content Include="Views\Pets\Details.cshtml" />
-    <Content Include="Views\Pets\Edit.cshtml" />
-    <Content Include="Views\Pets\Index.cshtml" />
     <Content Include="Views\AppointmentDetails\Create.cshtml" />
     <Content Include="Views\AppointmentDetails\Delete.cshtml" />
     <Content Include="Views\AppointmentDetails\Details.cshtml" />
     <Content Include="Views\AppointmentDetails\Edit.cshtml" />
     <Content Include="Views\AppointmentDetails\Index.cshtml" />
+    <Content Include="Views\Pets\Create.cshtml" />
+    <Content Include="Views\Pets\Delete.cshtml" />
+    <Content Include="Views\Pets\Details.cshtml" />
+    <Content Include="Views\Pets\Edit.cshtml" />
+    <Content Include="Views\Pets\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -6,8 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using Aj678815MIS4200.Models;
 using Aj678815MIS4200.DAL;
+using Aj678815MIS4200.Models;
 
 namespace Aj678815MIS4200.Controllers
 {
@@ -47,7 +47,7 @@ namespace Aj678815MIS4200.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "petId,description,vetExpense")] Pet pet)
+        public ActionResult Create([Bind(Include = "petId,description,vetExpense,supplierID")] Pet pet)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace Aj678815MIS4200.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "petId,description,vetExpense")] Pet pet)
+        public ActionResult Edit([Bind(Include = "petId,description,vetExpense,supplierID")] Pet pet)
         {
             if (ModelState.IsValid)
             {
