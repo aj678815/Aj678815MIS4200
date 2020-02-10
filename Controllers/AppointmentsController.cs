@@ -7,7 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Aj678815MIS4200.Models;
-using Aj678815MIS4200.Models.DAL;
+using Aj678815MIS4200.DAL;
 
 namespace Aj678815MIS4200.Controllers
 {

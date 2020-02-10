@@ -5,7 +5,7 @@ using System.Web;
 using Aj678815MIS4200.Models;
 using System.Data.Entity;
 
-namespace Aj678815MIS4200.Models.DAL
+namespace Aj678815MIS4200.DAL
 {
     public class MIS4200Context : DbContext
     {
