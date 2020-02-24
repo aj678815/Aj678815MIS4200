@@ -4,12 +4,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Appointment Information</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+<table class="table table-bordered table-hover table-striped">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.customer.customerFirstName)
@@ -35,9 +35,9 @@
             @Html.DisplayFor(modelItem => item.AppiontmentDate)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AppointmentId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AppointmentId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AppointmentId })
+            @Html.ActionLink("Edit", "Edit", new { id = item.AppointmentId }) <a span class="glyphicon glyphicon-pencil"></a> |
+            @Html.ActionLink("Details", "Details", new { id = item.AppointmentId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.AppointmentId })
         </td>
     </tr>
 }
